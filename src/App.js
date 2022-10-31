@@ -7,6 +7,7 @@ function App() {
       <header className="App-header">
         <Weather />
       </header>
+      <a href="https://github.com/vicmoon/React"> Go to Github</a>
     </div>
   );
 }
