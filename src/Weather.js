@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import axios from "axios";
-import ReactAnimatedWeather from "react-animated-weather";
 
 export default function SearchEngine() {
   const [city, setCity] = useState("");
