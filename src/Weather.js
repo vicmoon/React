@@ -53,13 +53,6 @@ export default function SearchEngine() {
           <li> Description: {weather.description} </li>
           <li> Humidity {weather.humidity}%</li>
           <li>Wind {weather.wind} km/h</li>
-
-          <ReactAnimatedWeather
-            icon="CLEAR_DAY"
-            color="goldenrod"
-            size={30}
-            animate={true}
-          />
         </ul>
       </div>
     );
