@@ -49,10 +49,10 @@ export default function SearchEngine() {
       <div>
         {form}
         <ul>
-          <li> Temperature {Math.round(weather.temperature)} °C</li>
+          <li> Temperature:{Math.round(weather.temperature)} °C</li>
           <li> Description: {weather.description} </li>
-          <li> Humidity {weather.humidity}%</li>
-          <li>Wind {weather.wind} km/h</li>
+          <li> Humidity: {weather.humidity}%</li>
+          <li>Wind: {weather.wind} km/h</li>
         </ul>
       </div>
     );
